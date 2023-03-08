@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title>Document Form</title>
+	</head>
+
+	<body>
+		<h2>Registration Form</h2>
+		
+		<form action="https://formspree.io/f/mgebaldd" method="post">
+			<div>
+				<label for="fullname"> FullName: </level>
+				<input type="text" name="fullname" id="fullname" required>
+			</div> <br>
+			
+			<div>
+				<label for="email"> Email: </level>
+				<input type="email" name="email" id="email"required>
+			</div> <br>
+			
+			<div>
+				<label for="password"> Password: </level>
+				<input type="password" name="password" id="password"required>
+			</div> <br>
+			
+			<div>
+				<label for="dob"> Dato of Birth: </level>
+				<input type="date" name="dob" id="dob">
+			</div> <br>
+			
+			<div>
+				<label for="photo"> Choose your photo: </level>
+				<input type="file" name="photo" id="photo">
+			</div> <br>
+			
+			<div>
+				<label for="gender"> Gender: </level>
+				<input type="radio" name="gender" id="gender" value="male">Male
+				<input type="radio" name="gender" id="gender" value="female">Female
+			</div> <br>
+			
+			<div>
+				<label for="religion"> Religion: </level>
+				<input type="checkbox" name="r1" id="islam" value="islam">Islam
+				<input checked type="checkbox" name="r1" id="jaws" value="jaws">Jaws
+			</div> <br>
+			
+			<div>
+				<label for="department">Department:</label>
+				<select name="depatment">
+					<option value="cse">CSE</option>
+					<option value="eee" selected>EEE</option>
+					<option value="mse">MSE</option>
+					<option value="llb">LLB</option>
+					<option value="bba">BBA</option>
+				</select>
+			</div> <br>
+			
+			<div>
+				<label for="message">Message:</label> <br>
+				<textarea cols="50" rows="20"> </textarea>
+				
+			</div> <br>
+			
+			<div>
+				<input type="submit" value="Register">
+				<input type="reset" value="Clear">
+			</div>
+		</form>
+	</body>
+
+
+
+
+
+</html>
